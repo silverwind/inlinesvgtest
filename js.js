@@ -1,3 +1,3 @@
 import tiger from "./tiger.svg";
 
-document.body.append(tiger);
+document.getElementById("root").innerHTML = tiger;
